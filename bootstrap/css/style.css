@@ -1,0 +1,46 @@
+.logo_img{
+	width: 100px;
+	height: 70px;
+}
+.allfont{
+	font-family: 'Playfair Display', serif;
+}
+
+.logo{
+	margin-left: -45px;
+	font-family: 'Lobster', cursive;
+}
+.fonts{
+	font-family: 'Lobster', cursive;
+
+}
+
+@media only screen and (max-width: 1440px) and (min-width: 1024px){
+.carousel_text{
+	position: absolute;
+	top: 170px;
+	left: 120px;
+}
+}
+@media only screen and (max-width: 1024px) and (min-width: 768px){
+.carousel_text{
+	position: absolute;
+	top: 110px;
+	left: 120px;
+}
+}
+hr.divided{
+	width: 90px;
+	margin: auto;
+	border: 1px solid #2b87b3;
+}
+.background_img{
+	background-image: url(../../images/background.jpg);
+	background-attachment: fixed;
+}
+hr.div{
+	width: 40px;
+	margin: auto;
+	border: 1px solid #fff;
+}
+
